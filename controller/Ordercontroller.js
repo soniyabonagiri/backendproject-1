@@ -6,7 +6,7 @@ const stripe = new Stripe('sk_test_51RJAJuQDdecNMU9pdLpd9n1cxlwJ6zTPpH5pIxN5XX0Z
 
 //placing user order from frontend
 const placeOrder = async (req, res) => {
-    const furl='http://localhost:5173'
+    const url='http://localhost:5173'
     console.log('placeorder function is working')
     console.log(req.body);
 

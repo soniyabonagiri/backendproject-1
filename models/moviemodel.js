@@ -6,14 +6,6 @@ const movieSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  // genre: {
-  //   type: String,
-  //   required: true,
-  // },
-  // duration: {
-  //   type: Number, // Duration in minutes
-  //   required: true,
-  // },
   description: {
     type: String,
     required: true,
@@ -30,18 +22,6 @@ const movieSchema = new mongoose.Schema({
     type:String,
     required:true
   }
-  // ,
-  // releaseDate: {
-  //   type: Date,
-  //   required: true,
-  // },
-  // language: {
-  //   type: String,
-  //   required: true,
-  // },
-  // certificate: {
-  //   type: String, // e.g. "U", "U/A", "A"
-  // }
 }, {
   timestamps: true // Automatically adds createdAt and updatedAt fields
 });
